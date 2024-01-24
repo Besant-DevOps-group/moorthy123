@@ -3,7 +3,7 @@
 pipeline {
     agent any
     stanges {
-        stange('print name') {
+        stange('name') {
             steps {
                 echo 'moorthi'
             }
