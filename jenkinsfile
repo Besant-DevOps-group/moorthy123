@@ -5,7 +5,7 @@ pipeline {
     stanges {
         stange('name') {
             steps {
-                echo 'moorthi'
+                echo ('moorthi')
             }
         }
     }
